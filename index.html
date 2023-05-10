@@ -10,71 +10,103 @@
 </head>
 
 <body>
-    <header>
-        <div class="container-1">
-            <nav>
-                <img src="images/Danial.jpg" alt="Danial">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <p>AWS Cloud Developer</p>
-                <h1>Hi, I'm <span>Danial</span><br>Mahmoudi from Raleigh, NC</h1>
-            </div>
-        </div>
+    <header class="header">
+        <h1>Danial Mahmoudi</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about-me">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#resume">Resume</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- About  -->
-    <div id="about">
-        <div class="container-2">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/background.jpg">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>I am a result-oriented individual with an eye of professionalism
-                        and empathetic attitude. I hold a degree in Bachelors of Science Civil Engineering from the
-                        University of North Carolina at Charlotte and a Computer Science Coding Bootcamp Certification
-                        from the University of North Carolina at Chapel Hill. I am profficient in the use of HTML, CSS,
-                        and JavaScript.</p>
+    <section class="hero">
+        <img class="image" src="images/Background.jpg" alt="portfolio image">
+        <div class="hero-text">
+            <h2>Full Stack Developer</h2>
+        </div>
+    </section>
 
-                    <div class="tab-titles">
-                        <p class="tab-links active-link">Skills</p>
-                        <p class="tab-links">Experience</p>
-                        <p class="tab-links">Education</p>
-                    </div>
-                    <div class="tabs-container">
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li><span>AWS</span><br>Cloud Development</li>
-                                <li><span>Web Development</span><br>Web App Development</li>
-                                <li><span>App Development</span><br>Developing iOS apps</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>2020 - Current</span><br>AWS Cloud Developmer at Amazon</li>
-                                <li><span>2018 - 2020</span><br>Solutions Intern at Accenture</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>2019</span><br>UNC Coding Bootcamp Certificate</li>
-                                <li><span>2018</span><br>Bachelors from UNC Charlotte</li>
-                            </ul>
-                        </div>
-                    </div>
+    <!-- About  -->
+    <section id="about-me">
+        <div class="section-info">
+            <h2 id="about-me-title">About Me</h2>
+        </div>
+        <p>
+            I am a result-oriented individual with an eye of professionalism
+            and empathetic attitude. I hold a degree in Bachelors of Science Civil Engineering from the
+            University of North Carolina at Charlotte and a Computer Science Coding Bootcamp Certification
+            from the University of North Carolina at Chapel Hill. I am profficient in the use of HTML, CSS,
+            and JavaScript.
+        </p>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="section-info">
+            <h2 class="section-title primary-border">Work</h2>
+            <div class="work-container">
+                <div class="item-detail">
+                    <a href="https://strain-finder-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/weed.jpeg" alt="Strain Finder">
+                       
+                    </a>
+                    <div class="bottom-left">Strain Finder<br>HTML/CSS</div>
+                </div>
+                <div class="item-detail">
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="images/Books.jpeg" alt="Horiseon">
+                        <div class="bottom-left">Horiseon<br>HTML/CSS</div>
+                    </a>
+                </div>
+                <div class="item-detail">
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="images/password.webp" alt="Password Generator">
+                        <div class="bottom-left">Password Generator<br>HTML/CSS/JSCRIPT</div>
+                    </a>
+                </div>
+                <div class="item-detail">
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="images/knowledge.jpeg" alt="Coding Knowledge">
+                        <div class="bottom-left">Coding Knowledge Quiz<br>HTML/CSS/JSCRIPT</div>
+                </div>
+                <div class="item-detail">
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="images/schedule.webp" alt="Workday Scheduler">
+                        <div class="bottom-left">Workday Scheduler<br>HTML/CSS</div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
+
+    <!-- Contact -->
+    <section id="contact-me">
+        <div class="section-info">
+            <h2 class="section-title">Contact Me</h2>
+            <ul>
+                <li>
+                    <a href="#number">919-606-7442</a>
+                </li>
+                <li>
+                    <a href="#email">dan84394@gmail.com</a>
+                </li>
+                <li>
+                    <a href="#github">https://github.com/danialmahmoudi16</a>
+                </li>
+            </ul>
+        </div>
+    </section>
 </body>
 
 
